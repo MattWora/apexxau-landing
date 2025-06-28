@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Hero from '../components/Hero'
+import Features from '../components/Features'
 export default function Home() {
   return (
     <>
@@ -8,7 +9,8 @@ export default function Home() {
         <meta name="description" content="Automated Gold Trading System" />
       </Head>
       <main className="bg-black text-white min-h-screen">
-      <Hero />
+  <Hero />
+  <Features />
       </main>
     </>
   )
